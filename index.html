@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			height: 200px;
+			background-color: #f2f2f2;
+		}
+
+		img {
+			width: 100px;
+			height: 100px;
+		}
+
+		h1 {
+			margin: 0;
+			font-size: 2.5em;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin: 50px 0;
+			justify-content: center;
+		}
+
+		fieldset {
+			border: none;
+			margin: auto;
+			padding: 0;
+		}
+
+		legend {
+			font-size: 1.5em;
+			margin-bottom: 10px;
+		}
+
+		label {
+			font-size: 1.2em;
+			margin-right: 10px;
+		}
+
+		button {
+			padding: 10px 20px;
+			font-size: 1.2em;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.2s ease-in-out;
+			text-align: center;
+			margin: auto;
+		}
+
+		button:hover {
+			background-color: #3e8e41;
+		}
+	.auto-style1 {
+		text-align: center;
+	}
+	.auto-style2 {
+		text-align: left;
+	}
+	.auto-style3 {
+		text-align: center;
+		text-decoration: underline;
+	}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="ffcswizard.png" alt="Logo">
+		<br>
+		<h1>FFCS Wizard</h1>
+	</header>
+	<form>
+		<div class="auto-style1">
+		<fieldset>
+			<legend class="auto-style3">What is your preference?</legend>
+			<label for="morning-theory">Morning Theory:</label>
+			<input type="radio" id="morning-theory" name="theory-time" value="morning">
+			<br>
+			<label for="afternoon-theory">Afternoon Theory:</label>
+			<input type="radio" id="afternoon-theory" name="theory-time" value="afternoon">
+		</fieldset>
+	</div>
+	</form>
+	<p style="text-align:center" class="auto-style2">
+		<a href="course-selectmod.html"><button type="submit" align=center>Next</button></a>
+	</p>
+</body>
+</html>

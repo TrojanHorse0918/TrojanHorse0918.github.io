@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" contents = "IE-edge">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Login Page</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+        <header class = "header">
+
+            <nav class = "navbar"> <!--This created a navigation bar-->
+                <a href = "#">Home</a>
+                <a href = "#">About</a>
+                <a href = "#">Services</a>
+                <a href = "#">Contact Us</a>
+            </nav>
+
+            <form action="#" class="search-bar">
+                <input type = "text" placeholder = "Search...">
+                <button type = "submit"><i class='bx bx-search-alt'></i></button>
+            </form>
+
+        </header>
+        
+        <div class="background"></div>
+        <div class="container">
+            <div class="content">
+                <h2 class = "logo"><i class='bx bxs-plane-alt'>Aviatronix</i></h2>
+
+                <div class = "text-sci">
+                    <h2>Welcome!<br><span>To the official website of Aviatronix</span></h2>
+
+                    <p>Aviatronix is a website where you can see what is the nearest flight crash site to you, and gain information on the crash.</p>
+                    
+                    <div class = "social-icons"> <!--target="_blank" opens in new tab, rel="noopener noreferrer prevents any malicious attacks-->
+                        <a href = "https://instagram.com/mananshah.__/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram-alt' ></i></i></a>
+                        <a href = "https://twitter.com/mananshahhh__" target="_blank" rel="noopener noreferrer"><i class='bx bxl-twitter' ></i></a>
+                        <a href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" rel="noopener noreferrer"><i class='bx bxl-youtube' ></i></a>
+                        <a href = "https://linkedin.com/in/manan-shah-0918/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin' ></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="logreg-box">
+                <div class="form-box login">
+                    <form action="#">
+                        <h2>Sign In</h2>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox"> Remember me</label>
+                            <a href="#">Forgot password</a>
+                        </div>
+
+                        <button type="submit" class="btn">Sign In</button>
+
+                        <div class="login-register">
+                            <p>Don't have an existing account? <a href="#" class="register-link">Sign up</a></p>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="form-box register">
+                    <form action="#">
+                        <h2>Sign Up</h2>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-user' ></i></span>
+                            <input type="text" required>
+                            <label>Name</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope' ></i></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox"> I agree to the terms & conditions</label>
+                        </div>
+
+                        <button type="submit" class="btn">Sign In</button>
+
+                        <div class="login-register">
+                            <p>Already have an existing account? <a href="#" class="login-link">Sign in</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src = "script.js"></script>
+    </body>
+
+</html>
